@@ -1,7 +1,6 @@
 use std::io::{BufReader, BufRead};
 use std::fs::File;
 
-
 /*
  * Copyright 2022 © GG
  * 
@@ -26,10 +25,9 @@ use std::fs::File;
 
 /*
  *   author Gabriel ogabrielpereira@pm.me
- *   version 1.0.0
- *   since Mar 7, 2022
+ *   version 0.1.0
+ *   since April 16, 2022
  */
-
 
 fn main() {   
     let f = File::open("poem.txt").unwrap();
